@@ -4,7 +4,8 @@ const songs = [
     "resources/menuloop.mp3",
     "resources/music/2-X. All The Times - Rhythm Doctor.mp3",
     "resources/music/EMPTY DIARY - UNBEATABLE.mp3",
-    "resources/music/No Devil Lived On (8-2) - ULTRAKILL.ogg"
+    "resources/music/No Devil Lived On (8-2) - ULTRAKILL.ogg",
+    "resources/music/ChickenSuitPony - Field of Love and Cringe.mp3"
 ];
 
 let currentSong = 0;
