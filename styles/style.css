@@ -183,3 +183,10 @@ nav ul a {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     z-index: 232;
 }
+
+.movie-player {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background: #000;
+}
