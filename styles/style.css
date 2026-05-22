@@ -1,7 +1,7 @@
 /* The following css creates the beautiful lesbian flag */
 
 html, body {
-    margin: 0;
+    margin: 5;
     width: 100%;
     min-height: 100%;
     overflow-y: auto;
@@ -22,6 +22,19 @@ body {
 
     background-size: 200% 200%;
     animation: prideWave 12s ease-in-out infinite;
+    transition: transform 1s;
+}
+body:active {
+    transform: rotate(1turn);
+    transition: none;
+}
+
+.dropdowner {
+    padding: 2px;
+    width: 50%;
+    border: 4px solid #A30262;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 20px;
 }
 
 @keyframes prideWave {
@@ -39,4 +52,34 @@ body {
 .image-container img {
   width: 45%;
   height: auto;
+}
+
+#leon_be_like{
+  background-color: #bb5994;
+  border: groove;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 2px 2px;
+}
+
+@keyframes spin3d {
+        0%   { transform: perspective(600px) rotateY(0deg); }
+        100% { transform: perspective(600px) rotateY(360deg); }
+      }
+.kirky-img {
+    position: relative;
+    display: inline-block;
+    width: 8rem;
+    height: 8rem;
+}
+
+#kirky-container {
+    height: 45rem;
+    width: 45rem;
+    padding: 2rem;
 }
