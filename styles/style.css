@@ -7,6 +7,45 @@ html, body {
     overflow-y: auto;
 }
 
+header {
+    padding: 2vh 0;
+    border-radius: .75vh;
+
+    background: linear-gradient(90deg,
+    #E40303,
+    #FF8C00,
+    #FFED00,
+    #008026,
+    #004CFF,
+    #732982,
+    #E40303,
+    #FF8C00,
+    #FFED00,
+    #008026,
+    #004CFF,
+    #732982,
+    #E40303);
+    background-size: 200%, 100%;
+    animation:  moveGradient 5s linear infinite;
+
+}
+
+@keyframes moveGradient {
+    from {
+        background-position: 0% 0%;
+    }
+    to {
+        background-position: 100% 0%;
+    }
+}
+
+header a {
+    color: white;
+    mix-blend-mode: difference;
+    margin: 1%;
+}
+
+
 /* Animated lesbian flag */
 body {
     background: linear-gradient(
