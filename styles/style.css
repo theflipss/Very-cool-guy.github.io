@@ -1,7 +1,7 @@
 /* The following css creates the beautiful lesbian flag */
 
 html, body {
-    margin: 0;
+    margin: 5;
     width: 100%;
     min-height: 100%;
     overflow-y: auto;
@@ -22,6 +22,11 @@ body {
 
     background-size: 200% 200%;
     animation: prideWave 12s ease-in-out infinite;
+    transition: transform 1s;
+}
+body:active {
+    transform: rotate(1turn);
+    transition: none;
 }
 
 @keyframes prideWave {
