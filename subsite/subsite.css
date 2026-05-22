@@ -1,0 +1,73 @@
+/* 
+css file contains styles for your html elements
+you can apply either by element type, class or id (for simplicity)
+
+style priority
+type -> class -> id (most important)
+
+i cant list all things you can change, but you can inspect what I changed and apply that information
+
+see examples below
+*/
+
+/* change element by type
+body - whole page
+a - links
+button - buttons...
+*/
+
+body {
+    background-color:lightcyan;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+a {
+    color: violet;
+    background-color: none;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    color:blueviolet;
+}
+
+button {
+    width: 100px;
+    height: 80px;
+    background-color: violet;
+    color: white;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+/* 
+change by class name
+note: to change using class name put dot before class name
+*/
+
+.welcome {
+    font-style: italic;
+}
+
+/* 
+change by id
+note: to change using id put # before id
+check first fish image in whenthe gallery
+*/
+
+#fish1 {
+    width: 300px;
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+}
+
+
