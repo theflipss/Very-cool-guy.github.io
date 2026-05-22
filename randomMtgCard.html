@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random MTG Card</title>
+
+    <link rel="stylesheet" href="styles/MtgCard.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>🎴 Random MTG Card</h1>
+
+        <div class="card" id="card">
+            <img id="cardImage" src="" alt="MTG Card">
+            <div class="card-name" id="cardName">Loading...</div>
+            <div class="card-type" id="cardType"></div>
+            <div class="card-text" id="cardText"></div>
+        </div>
+
+        <button id="randomBtn">Get Random Card</button>
+        <div class="loading" id="loading"></div>
+    </div>
+</body>
+<script src="scripts/randomCard.js"></script>
+</html>
