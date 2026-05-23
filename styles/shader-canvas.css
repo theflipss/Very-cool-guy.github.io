@@ -1,0 +1,18 @@
+#shader-canvas {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  position:fixed;
+  inset:0;
+  width:100vw;
+  height:100dvh;
+  height:100vh;
+
+  transform:translate3d(0,0,0);
+  will-change:transform;
+
+  z-index:-100;
+  /*image-rendering:pixelated;*/
+  pointer-events:none;   
+}

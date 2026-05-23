@@ -18,6 +18,7 @@ button - buttons...
 
 body {
     background-color:lightcyan;
+    font-size: 250%;
 }
 
 img {
@@ -25,10 +26,14 @@ img {
     height: auto;
 }
 
+nav {
+    font-size: 30px;
+    background-color: lightcyan;
+}
+
 a {
     color: violet;
     background-color: none;
-    font-size: 30px;
     text-decoration: none;
     margin-right: 10px;
 }
@@ -57,6 +62,29 @@ note: to change using class name put dot before class name
     font-style: italic;
 }
 
+.subtitle {
+    font-style: italic;
+    color: gray;
+    font-size: 50%;
+}
+
+.blast {
+    background: #FF218C;
+    background: linear-gradient(90deg, rgba(255, 33, 140, 1) 0%, rgba(255, 216, 0, 1) 50%, rgba(33, 177, 255, 1) 100%);
+}
+
+.yuribg {
+    background: #D52D00;
+    background: linear-gradient(180deg, rgba(213, 45, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(163, 2, 98, 1) 100%);
+    min-height: 100vh;
+}
+
+.yaoibg {
+    background: #078D70;
+    background: linear-gradient(180deg, rgba(7, 141, 112, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(61, 26, 120, 1) 100%);
+    min-height: 100vh;
+}
+
 /* 
 change by id
 note: to change using id put # before id
@@ -71,3 +99,6 @@ check first fish image in whenthe gallery
 }
 
 
+#info {
+    background-color: coral;
+}
