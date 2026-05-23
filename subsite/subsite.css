@@ -18,7 +18,7 @@ button - buttons...
 
 body {
     background-color:lightcyan;
-    font-size: 300%;
+    font-size: 250%;
 }
 
 img {
@@ -28,6 +28,7 @@ img {
 
 nav {
     font-size: 30px;
+    background-color: lightcyan;
 }
 
 a {
@@ -75,11 +76,13 @@ note: to change using class name put dot before class name
 .yuribg {
     background: #D52D00;
     background: linear-gradient(180deg, rgba(213, 45, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(163, 2, 98, 1) 100%);
+    min-height: 100vh;
 }
 
 .yaoibg {
     background: #078D70;
     background: linear-gradient(180deg, rgba(7, 141, 112, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(61, 26, 120, 1) 100%);
+    min-height: 100vh;
 }
 
 /* 
